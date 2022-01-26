@@ -24,3 +24,14 @@
     @apply hover:underline;
   }
 }
+
+.name {
+    font-family: "Zing Script Rust";
+}
+
+
+@font-face {
+    font-family: "Zing Script Rust";
+    src: url("/zing.woff2") format("woff2"),
+         url("/zing.woff") format("woff");
+}

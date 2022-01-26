@@ -466,8 +466,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .order-1 {
   order: 1;
 }
-.col-span-3 {
-  grid-column: span 3 / span 3;
+.col-span-2 {
+  grid-column: span 2 / span 2;
 }
 .col-span-1 {
   grid-column: span 1 / span 1;
@@ -488,11 +488,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mr-2 {
   margin-right: 0.5rem;
 }
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
 .mr-1 {
   margin-right: 0.25rem;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 .mb-6 {
   margin-bottom: 1.5rem;
@@ -528,8 +528,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   -moz-column-break-inside: avoid;
        break-inside: avoid;
 }
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .flex-row {
   flex-direction: row;
@@ -599,8 +599,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-.text-5xl {
-  font-size: 3rem;
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 .text-xl {
@@ -640,6 +640,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(194 65 12 / var(--tw-text-opacity));
 }
+
+.name {
+    font-family: "Zing Script Rust";
+}
+
+
+@font-face {
+    font-family: "Zing Script Rust";
+    src: url("/zing.woff2") format("woff2"),
+         url("/zing.woff") format("woff");
+}
+
+
 @media print {
 
   .print\:order-2 {
@@ -663,6 +676,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 2rem;
   }
 }
+
+
 @media (min-width: 640px) {
 
   .sm\:order-2 {
