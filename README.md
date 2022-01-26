@@ -1,6 +1,6 @@
-# Autumn Theme for JSON Resume
+# October Theme for JSON Resume
 
-This is the Autumn theme for the [JSON Resume](https://jsonresume.org/) project. It is built using [Tailwind CSS](https://tailwindcss.com/).
+This is the October theme for the [JSON Resume](https://jsonresume.org/) project, which is just a slightly more compact version of the August theme. It is built using [Tailwind CSS](https://tailwindcss.com/).
 
 ![Preview of a resume using the Autumn theme](https://user-images.githubusercontent.com/8523099/149596708-7cd2c487-939e-4f83-b7fd-0b8e6abfddf1.png)
 
