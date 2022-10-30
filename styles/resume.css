@@ -29,6 +29,11 @@
     font-family: "Zing Script Rust";
 }
 
+@media print {
+   .noprint {
+      visibility: hidden;
+   }
+}
 
 @font-face {
     font-family: "Zing Script Rust";
